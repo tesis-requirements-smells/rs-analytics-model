@@ -1,6 +1,6 @@
 
 <h2>DESCRIPCIÓN GENERAL</h2>
-Simulación del API de la aplicación de detección de olores en los requisitos. Además, se agrega colección en postman para probar.
+API que expone el calculo de métricas de calidad de requisitos de software, a partir de un conjunto establecido de parámetros de entrada, para evaluar requisito a requisito, o para evaluar varios requisitos en conjunto.
 
 <h2>PRE-REQUISITOS</h2>
 
