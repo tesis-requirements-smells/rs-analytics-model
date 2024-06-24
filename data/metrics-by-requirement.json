@@ -1,0 +1,167 @@
+[
+    {
+        "metric_id": "PADI",
+        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+        "params": ["NTA", "NTT"],
+        "nlp_metric": true,
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Sin ambigüedad",
+                "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 2,
+                "classification": "Ambigüedad leve",
+                "description": "La mayoría de los términos son claros y se puede entender la intención general del requisito de software.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 2,
+                "max": 10,
+                "classification": "Ambigüedad media",
+                "description": "El requisito de software presenta una cantidad considerable de términos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 10,
+                "max": 100,
+                "classification": "Ambigüedad alta",
+                "description": "La descripción del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PTOR",
+        "metric_name": "Porcentaje de uso de términos opuestos en un requisito de software",
+        "params": ["NTOR", "NTT"],
+        "nlp_metric": true,
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Sin uso de términos opuestos",
+                "description": "El requisito no presenta términos opuestos en su descripción. Por lo tanto, el requisito no se considera compuesto.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 2,
+                "classification": "Uso de términos opuestos leve",
+                "description": "El requisito presenta pocos términos opuestos en su descripción. Por lo tanto, hay una probabilidad leve de que el requisito deba dividirse.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 2,
+                "max": 5,
+                "classification": "Uso de términos opuestos regular",
+                "description": "El requisito presenta una cantidad considerable de términos opuestos en su descripción. Por lo tanto, la singularidad del requisito es cuestionable y probablemente deba dividirse.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 5,
+                "max": 100,
+                "classification": "Uso de términos opuestos alto",
+                "description": "Hay muchos términos opuestos presentes en el requisito. Por lo tanto, la composición del requisito es alta y se recomienda dividir el requisito.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PI",
+        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+        "params": ["NTI", "NTT"],
+        "nlp_metric": true,
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Sin imprecisión",
+                "description": "El requisito está definido de manera precisa, proporcionando una base sólida para su verificación.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 5,
+                "classification": "Incompletitud leve",
+                "description": "El requisito es lo suficientemente completo según su terminología y no impide realizar su verificación o implementación.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 5,
+                "max": 15,
+                "classification": "Incompletitud regular",
+                "description": "El requisito de software presenta una cantidad considerable de términos ambiguos, lo que puede llevar a impedir la verificación de los detalles del requisito.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 15,
+                "max": 100,
+                "classification": "Incompletitud alta",
+                "description": "La descripción del requisito de software es incompleta, lo que dificulta entender el requisito y así mismo, realizar su verificación e implementación completa.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "NSEHU",
+        "metric_name": "Número de semanas estimadas para implementar una historia de usuario",
+        "params": ["NSEHU"],
+        "ranges": [
+            {
+                "min": 0,
+                "max": 2,
+                "classification": "Estimación ideal",
+                "description": "Indica que la historia de usuario es manejable y puede completarse en una iteración o ciclo de desarrollo relativamente corto.",
+                "severity": "OK"
+            },
+            {
+                "min": 2,
+                "max": 3,
+                "classification": "Estimación aceptable",
+                "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 3,
+                "max": 9999999,
+                "classification": "Estimación demasiado grande",
+                "description": "Sugiere que la historia de usuario es extensa y puede beneficiarse de una subdivisión en historias más pequeñas y manejables.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "NCCR",
+        "metric_name": "Número de conjunciones o conectores en un requisito de software",
+        "params": ["NCCR"],
+        "nlp_metric": true,
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Requisito conciso",
+                "description": "El requisito no presenta ninguna conjunción o conector, lo que indica que está enfocado y aborda de manera clara y directa una única necesidad o funcionalidad.",
+                "severity": "OK"
+            },
+            {
+                "min": 20,
+                "max": 50,
+                "classification": "Concisión aceptable",
+                "description": "El requisito presenta una cantidad mínima de conjunciones o conectores. Aunque podría beneficiarse de cierta simplificación, aún es manejable y no se considera excesivamente extenso.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 50,
+                "max": 100,
+                "classification": "Concisión baja",
+                "description": "El requisito presenta una cantidad alta de conjunciones o conectores, lo que indica que el requisito podría estar abarcando demasiadas funcionalidades o necesidades en un solo enunciado.",
+                "severity": "ALTA"
+            }
+        ]
+    }
+]

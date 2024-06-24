@@ -1,0 +1,261 @@
+[
+    {
+        "metric_id": "PHTRS",
+        "metric_name": "Porcentaje de heterogeneidad de la terminología de los requisitos de software por el uso de sinónimos",
+        "params": ["NRSOR", "NTR"],
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Sin heterogeneidad",
+                "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 20,
+                "classification": "Heterogeneidad leve",
+                "description": "Se presentan pocos términos con sinónimos, pero la mayoría de los requisitos son comprendidos de manera correcta.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 20,
+                "max": 50,
+                "classification": "Heterogeneidad regular",
+                "description": "Se presenta una cantidad considerable de términos que tienen sinónimos en otros requisitos, generando diversas interpretaciones.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 50,
+                "max": 100,
+                "classification": "Heterogeneidad alta",
+                "description": "No existe claridad y uniformidad en la terminología de los requisitos.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PRRC",
+        "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+        "params": ["NRRC", "NTR"],
+        "ranges": [
+            {
+                "min": 100,
+                "max": 100,
+                "classification": "Revisión completa",
+                "description": "Indica que todos los requisitos han sido revisados por todos los stakeholders.",
+                "severity": "OK"
+            },
+            {
+                "min": 80,
+                "max": 100,
+                "classification": "Revisión alta",
+                "description": "Indica que la mayoría de los requisitos han sido revisados por todos los stakeholders.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 40,
+                "max": 80,
+                "classification": "Revisión media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 0,
+                "max": 40,
+                "classification": "Revisión baja",
+                "description": "Indica que ninguno o la minoría de los requisitos han sido revisados por todos los stakeholders.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PRRDE",
+        "metric_name": "Porcentaje de requisitos de software revisados por desarrolladores con experiencia",
+        "params": ["NRRDE", "NTR"],
+        "ranges": [
+            {
+                "min": 100,
+                "max": 100,
+                "classification": "Revisión completa",
+                "description": "Indica que todos los requisitos han sido revisados por desarrolladores con experiencia.",
+                "severity": "OK"
+            },
+            {
+                "min": 80,
+                "max": 100,
+                "classification": "Revisión alta",
+                "description": "Indica que la mayoría de los requisitos han sido revisados por desarrolladores con experiencia.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 40,
+                "max": 80,
+                "classification": "Revisión media",
+                "description": "Indica que pocos requisitos han sido revisados por desarrolladores con experiencia.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 0,
+                "max": 40,
+                "classification": "Revisión baja",
+                "description": "Indica que ninguno o la minoría de los requisitos han sido revisados por desarrolladores con experiencia.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PRPND",
+        "metric_name": "Porcentaje de requisitos de software con pruebas que no se pueden diseñar",
+        "params": ["NRPND", "NTR"],
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Excelente",
+                "description": "Es posible diseñar todas las pruebas para la verificación de los requisitos definidos.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 25,
+                "classification": "Bueno",
+                "description": "Un porcentaje pequeño de requisitos no son lo suficientemente claros para el diseño de pruebas.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 25,
+                "max": 50,
+                "classification": "Regular",
+                "description": "Una cantidad considerable de requisitos contienen pruebas que no se pueden diseñar.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 50,
+                "max": 100,
+                "classification": "Malo",
+                "description": "No se pueden diseñar pruebas para una cantidad alta de requisitos, denotando falta de verificabilidad en los requisitos.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PRNAON",
+        "metric_name": "Porcentaje de requisitos de software que no aportan a los objetivos del negocio",
+        "params": ["PRNAON", "NTR"],
+        "ranges": [
+            {
+                "min": 0,
+                "max": 0,
+                "classification": "Sin requisitos innecesarios",
+                "description": "No se presentan requisitos innecesarios dentro del proyecto, lo que indica que la especificación de requisitos está optimizada y enfocada en lo esencial.",
+                "severity": "OK"
+            },
+            {
+                "min": 0,
+                "max": 5,
+                "classification": "Presencia de requisitos innecesarios leve",
+                "description": "Se presenta una leve presencia de requisitos innecesarios, lo que indica que, aunque existe cierta optimización, se puede trabajar para eliminar o mejorar algunos requisitos adicionales que podrían considerarse menos críticos.",
+                "severity": "LEVE"
+            },
+            {
+                "min": 5,
+                "max": 20,
+                "classification": "Presencia de requisitos innecesarios alta",
+                "description": "Se presenta una cantidad considerable de requisitos innecesarios que podrían ser revisados y potencialmente eliminados o refinados para mejorar la eficiencia y la relevancia del proyecto.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 20,
+                "max": 100,
+                "classification": "Presencia de requisitos innecesarios alta",
+                "description": "Se presenta una alta cantidad de requisitos innecesarios. En este nivel, se sugiere una revisión exhaustiva y una reevaluación de la especificación de requisitos para eliminar o mejorar aquellos que no aportan valor sustancial. ",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PTCR",
+        "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+        "params": ["TTCR", "NTR"],
+        "ranges": [
+            {
+                "min": 0.0,
+                "max": 0.5,
+                "classification": "Tiempo de comprensión excelente",
+                "description": "Existe una eficiente y rápida comprensión de los requisitos, donde no se impone demoras significativas en el proceso de interpretación.",
+                "severity": "OK"
+            },
+            {
+                "min": 0.5,
+                "max": 1.0,
+                "classification": "Tiempo de comprensión aceptable",
+                "description": "Se requiere un tiempo considerable para comprender los requisitos, donde el esfuerzo dedicado a la comprensión se considera aceptable.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 1.0,
+                "max": 9999999.9,
+                "classification": "Tiempo de comprensión deficiente",
+                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "RECR",
+        "metric_name": "Relación del esfuerzo realizado en la comunicación de los requisitos de software a los desarrolladores respecto al esfuerzo estimado",
+        "params": ["ERCR", "EECR"],
+        "ranges": [
+            {
+                "min": 1.0,
+                "max": 1.0,
+                "classification": "Esfuerzo de comunicación de requisitos aceptable",
+                "description": "El esfuerzo real dedicado a la comunicación de los requisitos coincide con el esfuerzo estimado inicialmente; indicando una precisión en la planificación y comunicación de los requisitos, donde se utilizó el tiempo previsto.",
+                "severity": "OK"
+            },
+            {
+                "min": 0.0,
+                "max": 1.0,
+                "classification": "Esfuerzo de comunicación de requisitos excelente",
+                "description": "El esfuerzo real dedicado a la comunicación de los requisitos fue menor que el esfuerzo estimado inicialmente; indicando una eficiencia en la comunicación, donde se logró transmitir los requisitos de manera efectiva con un menor tiempo del previsto.",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 1.0,
+                "max": 9999999.0,
+                "classification": "Esfuerzo de comunicación de requisitos deficiente",
+                "description": "El esfuerzo real dedicado a la comunicación de los requisitos fue mayor que el esfuerzo estimado inicialmente; indicando una deficiencia en la comunicación, donde no se logró transmitir los requisitos de manera efectiva en el tiempo previsto.",
+                "severity": "ALTA"
+            }
+        ]
+    },
+    {
+        "metric_id": "PTAR",
+        "metric_name": "Promedio de tiempo de aclaración de requisitos de software",
+        "params": ["TTAR", "NTR"],
+        "ranges": [
+            {
+                "min": 0.0,
+                "max": 0.5,
+                "classification": "",
+                "description": "",
+                "severity": "OK"
+            },
+            {
+                "min": 0.5,
+                "max": 1.0,
+                "classification": "",
+                "description": "",
+                "severity": "MEDIA"
+            },
+            {
+                "min": 1.0,
+                "max": 9999999.0,
+                "classification": "",
+                "description": "",
+                "severity": "ALTA"
+            }
+        ]
+    }
+]
