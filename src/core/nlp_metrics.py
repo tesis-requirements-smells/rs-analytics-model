@@ -1,6 +1,11 @@
 from textblob import TextBlob
+from src.utils import *
+import src.core.nlp_utils as nlp_utils
 
-class NlpMetrics:
+SMELLS_URL = './data/smells-dictionary.json'
+
+
+class NlpMetrics:    
 
     def __init__(self, text:str):
         self.text = text
@@ -8,6 +13,7 @@ class NlpMetrics:
         self.words = self.blob.words
         self.NTT = len(self.words)
         self.upper_words = [word.upper() for word in self.words]
+        self.smells_dict = read_json(SMELLS_URL)
 
     
     def evaluate_metric(self, metric_id):
@@ -36,6 +42,10 @@ class NlpMetrics:
     
 
     def _evaluate_PI(self):
+        smells = nlp_utils.get_smells_by_ambiguity_type(['incompleteness'], self.smells_dict)
+
+        # TODO
+
         return 0
     
 
