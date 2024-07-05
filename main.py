@@ -162,7 +162,12 @@ def get_evaluation_by_id(input_id:int):
     # prepare response    
     error_message = 'No se pudo encontrar los datos de entrada'
     status = 200 if report != None else 404
-    response = {'results': report} if report != None else {'message': error_message}
+    response = report if report != None else { 'message': error_message }
+
+    if 'input_modification_date' in response:
+        response.pop('input_modification_date')
+    if 'input_status' in response:
+        response.pop('input_status')
 
     return jsonify(response), status
 

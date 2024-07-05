@@ -42,11 +42,13 @@ tags = {
     'WP': 'Pronombre wh',
     'WP$': 'Pronombre posesivo wh',
     'WRB': 'Adverbio wh'
-    }
+}
 
 # Crear un objeto TextBlob con un texto dado
-texto = "The quick brown fox jumped on the lazy white dog. The intelligent gray squirrel ran nimbly among the tall trees of the forest. The calm river flowed gently under the bright morning sun. The cheerful bird sang sweet melodies from the branch of the old oak"
-blob = TextBlob(texto)
+texto = "the quick brown fast fox jumped on the lazy white dog. The intelligent gray squirrel ran nimbly among the tall trees of the forest. The calm river flowed gently under the bright morning sun. The cheerful bird sang sweet melodies from the branch of the old oak"
+#texto = "Fast"
+
+blob = TextBlob(texto.lower())
 
 # Análisis de sentimientos
 #sentimiento = blob.sentiment
@@ -63,8 +65,27 @@ for palabra, tag in lista_tuplas_actualizada:
     etiqueta = tags.get(tag, tag)
     resultados.append(f"{palabra}: {etiqueta}")
 
+print('Resultados procesando todo el texto')
 for resultado in resultados:
     print(resultado)
+
+
+
+blob = TextBlob()
+pos_tags_espanol = blob.tags
+print(type(pos_tags_espanol))
+print("Etiquetado de partes del discurso:\n")
+
+resultados = []
+lista_tuplas_actualizada = [(palabra, tags.get(tag, tag)) for palabra, tag in pos_tags_espanol]
+for palabra, tag in lista_tuplas_actualizada:
+    etiqueta = tags.get(tag, tag)
+    resultados.append(f"{palabra}: {etiqueta}")
+
+print('\nResultados palabra a palabra')
+for resultado in resultados:
+    print(resultado)
+
 
 # Extracción de frases clave
 #frases_clave = blob.noun_phrases

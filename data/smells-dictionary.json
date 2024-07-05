@@ -297,7 +297,7 @@
         "incompleteness": "X"
     },
     {
-        "word": "Casi siempre",
+        "word": "Casi|siempre",
         "type": "Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
@@ -378,7 +378,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Algunas veces",
+        "word": "Algunas|veces",
         "type": "Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
@@ -1224,7 +1224,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Mejor <adjetivo/sustantivo/adverbio> que",
+        "word": "Mejor|<adjetivo>|que",
         "type": "Frases comparativas",
         "lexical": "X",
         "syntactic": "",
@@ -1233,7 +1233,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Mas <adjetivo/sustantivo/adverbio> que",
+        "word": "Mejor|<sustantivo>|que",
         "type": "Frases comparativas",
         "lexical": "X",
         "syntactic": "",
@@ -1242,7 +1242,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Menos <adjetivo/sustantivo/adverbio> que",
+        "word": "Mejor|<adverbio>|que",
         "type": "Frases comparativas",
         "lexical": "X",
         "syntactic": "",
@@ -1251,7 +1251,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Superior a",
+        "word": "Más|<adjetivo>|que",
         "type": "Frases comparativas",
         "lexical": "X",
         "syntactic": "",
@@ -1260,7 +1260,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Inferior a",
+        "word": "Más|<sustantivo>|que",
         "type": "Frases comparativas",
         "lexical": "X",
         "syntactic": "",
@@ -1269,7 +1269,61 @@
         "incompleteness": ""
     },
     {
-        "word": "Mas <adjetivo>",
+        "word": "Más|<adverbio>|que",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Menos|<adjetivo>|que",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Menos|<adjetivo>|que",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Menos|<adverbio>|que",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Superior|a",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Inferior|a",
+        "type": "Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Más|<adjetivo>|",
         "type": "Superlativos",
         "lexical": "X",
         "syntactic": "",
@@ -1278,7 +1332,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Menos <adjetivo>",
+        "word": "Menos|<adjetivo>|",
         "type": "Superlativos",
         "lexical": "X",
         "syntactic": "",
@@ -1287,7 +1341,7 @@
         "incompleteness": ""
     },
     {
-        "word": "Muy <adjetivo>",
+        "word": "Muy|<adjetivo>|",
         "type": "Superlativos",
         "lexical": "X",
         "syntactic": "",
@@ -1296,7 +1350,7 @@
         "incompleteness": ""
     },
     {
-        "word": "<adjetivo + “ísimo”>",
+        "word": "<adjetivo + ísimo>",
         "type": "Superlativos",
         "lexical": "X",
         "syntactic": "",

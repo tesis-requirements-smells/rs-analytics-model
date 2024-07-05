@@ -1,19 +1,102 @@
 from textblob import TextBlob
 from src.utils import *
+from src.domain.word_metadata import *
 import src.core.nlp_utils as nlp_utils
+from googletrans import Translator
 
 SMELLS_URL = './data/smells-dictionary.json'
+
+TAGS_DICT = {
+        'CC': 'Conjunción coordinante',
+        'CD': 'Número cardinal',
+        'DT': 'Determinante',
+        'EX': 'Existencial there',
+        'FW': 'Palabra extranjera',
+        'IN': 'Preposición o conjunción subordinante',
+        'JJ': 'ADJETIVO', # Adjetivo
+        'JJR': 'ADJETIVO', # Adjetivo comparativo
+        'JJS': 'ADJETIVO', # Adjetivo superlativo
+        'LS': 'Marcador de lista',
+        'MD': 'Modalidad',
+        'NN': 'SUSTANTIVO', # singular o masa
+        'NNS': 'SUSTANTIVO', # plural
+        'NNP': 'SUSTANTIVO', # propio singular
+        'NNPS': 'SUSTANTIVO', # propio plural
+        'PDT': 'Predeterminador',
+        'POS': 'Posesivo final',
+        'PRP': 'Pronombre personal',
+        'PRP$': 'Pronombre posesivo',
+        'RB': 'ADVERBIO', # Adverbio'
+        'RBR': 'ADVERBIO', # Adverbio comparativo
+        'RBS': 'ADVERBIO', # Adverbio superlativo
+        'RP': 'Partícula',
+        'SYM': 'Símbolo',
+        'TO': 'to',
+        'UH': 'Interjección',
+        'VB': 'Verbo base form',
+        'VBD': 'Verbo pasado',
+        'VBG': 'Verbo gerundio o presente participio',
+        'VBN': 'Verbo pasado participio',
+        'VBP': 'Verbo no 3ra persona singular, presente',
+        'VBZ': 'Verbo 3ra persona singular, presente',
+        'WDT': 'Determinante wh',
+        'WP': 'Pronombre wh',
+        'WP$': 'Pronombre posesivo wh',
+        'WRB': 'ADVERBIO' # Adverbio wh
+    }
 
 
 class NlpMetrics:    
 
-    def __init__(self, text:str):
-        self.text = text
-        self.blob = TextBlob(text)
-        self.words = self.blob.words
-        self.NTT = len(self.words)
-        self.upper_words = [word.upper() for word in self.words]
+    def __init__(self, original_text:str):
+        translator = Translator()
+
+        self.text_es = original_text
+        self.blob_es = TextBlob(original_text)
+        self.words_es_list = self.blob_es.words
+        self.NTT = len(self.words_es_list)
         self.smells_dict = read_json(SMELLS_URL)
+        print('LLAMADA AL API DE GOOGLE PARA TRADUCIR TEXTO')      
+        self.text_en = translator.translate(self.text_es, src='es', dest='en').text
+
+        self.blob_en = TextBlob(self.text_en)
+        self.tags = self.blob_en.tags
+        self.words_en_list = self.blob_en.words
+        self.words_metadata = self.get_words_metadata(self.words_es_list) 
+
+        print('Objeto NlpMetrics creado. Valores:')
+        print('========= self.text_es')     
+        print(self.text_es)
+        print('========= self.words_es_list')     
+        print(self.words_es_list)
+        print('========= self.NTT')     
+        print(self.NTT)
+        print('========= self.text_en')     
+        print(self.text_en)
+        print('========= self.tags')     
+        print(self.tags)
+        print('========= self.words_en_list')     
+        print(self.words_en_list)
+        #print('========= self.words_metadata')     
+        #print([str(wmd) for wmd in self.words_metadata])
+        print('========= ')     
+        print()
+
+
+    def get_words_metadata(self, words_es_list):
+        words = []
+
+        for i in range(0, len(words_es_list)):
+            word_es = words_es_list[i]
+            word_en = None # Se calcula cuando se necesite para reducir las llamadas al API de Google
+            tag_code = None # Se calcula cuando se necesite para reducir las llamadas al API de Google
+            tag_desc = None # Se calcula cuando se necesite para reducir las llamadas al API de Google
+            previous_word = words_es_list[i - 1] if i > 0 else ''
+            next_word = words_es_list[i + 1] if i < (len(words_es_list) - 1) else ''
+
+            words.append(WordMetadata(word_es, word_en, tag_code, tag_desc, previous_word, next_word))
+
+        return words
 
     
     def evaluate_metric(self, metric_id):
@@ -33,7 +116,15 @@ class NlpMetrics:
 
 
     def _evaluate_PADI(self):
-        return 0
+        ambiguity_types = ['lexical', 'syntactic', 'semantic', 'vagueness']
+        smells_list = nlp_utils.get_smells_by_ambiguity_type(ambiguity_types, self.smells_dict)  
+        NTA = 0
+        for word in self.words_metadata:
+            NTA = NTA + nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+
+        print(f'Smells detectados para métrica PADI: {NTA}')   
+
+        return (int(NTA) / int(self.NTT)) * 100
     
 
     def _evaluate_PTOR(self):
@@ -41,12 +132,16 @@ class NlpMetrics:
         return 0
     
 
-    def _evaluate_PI(self):
-        smells = nlp_utils.get_smells_by_ambiguity_type(['incompleteness'], self.smells_dict)
+    def _evaluate_PI(self):         
+        ambiguity_types = ['incompleteness']
+        smells_list = nlp_utils.get_smells_by_ambiguity_type(ambiguity_types, self.smells_dict)  
+        NTI = 0
+        for word in self.words_metadata:
+            NTI = NTI + nlp_utils.is_word_an_smell(word, smells_list, self.tags)
 
-        # TODO
+        print(f'Smells detectados para métrica PI: {NTI}')   
 
-        return 0
+        return (int(NTI) / int(self.NTT)) * 100
     
 
     def _evaluate_PHTRS(self):

@@ -70,6 +70,7 @@ def get_evaluation_by_requirement(evaluation_data:dict):
         req_detail = req_params['REQUIREMENT_DESCRIPTION']        
         nlp_evaluator = NlpMetrics(req_detail)
         req_results = []
+        print(f'Evaluando requisito { req_code }')
 
         for metric in metrics:
             is_nlp_metric = 'nlp_metric' in metric and metric['nlp_metric'] == True            
@@ -128,7 +129,7 @@ def get_metric_report(metric_info, result):
         range_found = False
         min = int(range['min'])
         max = int(range['max'])
-        print(f'min: {min} max: {max} result: {result}')
+        #print(f'min: {min} max: {max} result: {result}')
 
         if result != None and (min <= result <= max):
             classification = range['classification']
