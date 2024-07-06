@@ -26,7 +26,6 @@ def evaluate(evaluation_data:dict, report_name:str):
         "report_id": new_id,
         "report_name": report_name,
         "report_date": get_current_date(),
-        "report_overall_score": 0, # TODO
         "results_by_requirement": results_by_requirement,
         "results_general": results_general
     }

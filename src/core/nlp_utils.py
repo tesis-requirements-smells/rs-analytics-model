@@ -44,7 +44,7 @@ def get_smells_by_ambiguity_type(ambiguity_types:list, smells:list):
     result = []
     
     for elemento in smells:
-        if any(elemento[campo] == 'X' for campo in ambiguity_types):
+        if any(campo in elemento and elemento[campo] == 'X' for campo in ambiguity_types):
             result.append(elemento['word'].lower())
 
     return list(set(result))

@@ -14,7 +14,7 @@ BASE_URL = 'reqsmells'
 PORT = 8080
 
 # Campos del reporte que deberian salir en resumenes
-REPORTS_RESUME_FIELDS = ['report_id', 'report_name', 'report_date', 'report_overall_score']
+REPORTS_RESUME_FIELDS = ['report_id', 'report_name', 'report_date']
 EVALUATIONS_RESUME_FIELDS = ['input_id', 'input_modification_date', 'input_status']
 
 # json files
@@ -43,7 +43,7 @@ def get_reports_resume():
     reports_resume = [{field: d[field] for field in REPORTS_RESUME_FIELDS} for d in reports_resume]
 
     response = jsonify({
-        'reports' : reports_resume
+        reports_resume
     })
 
     return response
@@ -79,7 +79,7 @@ def get_report_by_id(report_id:int):
     # prepare response    
     error_message = 'No se pudo encontrar el reporte'
     status = 200 if report != None else 404
-    response = {'report': report} if report != None else {'message': error_message}
+    response = report if report != None else { 'message': error_message }
 
     return jsonify(response), status
 
@@ -120,7 +120,7 @@ def get_evaluation_data_list(status:str):
         evaluation_data = [d for d in evaluation_data if d['input_status'] == status]
 
     return jsonify({
-        'results' : evaluation_data
+        evaluation_data
     })
 
 
@@ -250,7 +250,6 @@ def evaluate_data_deprecated():
         "report_id": new_id,
         "report_name": report_name,
         "report_date": get_current_date(),
-        "report_overall_score": round(random.uniform(0, 100), 2),
         "results_by_requirement": evaluation['results_by_requirement'],
         "results_general": evaluation['results_general']
     }
