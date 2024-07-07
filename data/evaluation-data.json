@@ -9,17 +9,17 @@
                 "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
                 "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
-                    "NRRDE": "2",
+                    "REQUIREMENT_DESCRIPTION": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                    "NRRDE": "2" ,
                     "TTCR": "5",
-                    "NTREU": "4"
+                    "NTREU": "4" 
                 }
             },
             {
                 "req_code": "HU002",
-                "req_name": "Incorporar art\u00edculos",
+                "req_name": "Incorporar artículos",
                 "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
+                    "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
                     "NRRDE": "2",
                     "TTCR": "5",
                     "NTREU": "4"
@@ -29,7 +29,7 @@
                 "req_code": "HU003",
                 "req_name": "registro",
                 "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
+                    "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
                     "NRRDE": "2",
                     "TTCR": "5",
                     "NTREU": "4"
@@ -52,36 +52,20 @@
                 "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
                 "req_data": [
-                    {
-                        "REQUIREMENT_DESCRIPTION": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos"
-                    },
-                    {
-                        "NRRDE": "2"
-                    },
-                    {
-                        "TTCR": "5"
-                    },
-                    {
-                        "NTREU": "3"
-                    }
+                    { "REQUIREMENT_DESCRIPTION": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos" },
+                    { "NRRDE": "2" },
+                    { "TTCR": "5" },
+                    { "NTREU": "3" }
                 ]
             },
             {
                 "req_code": "HU002",
-                "req_name": "Incorporar art\u00edculos",
+                "req_name": "Incorporar artículos",
                 "req_data": [
-                    {
-                        "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo"
-                    },
-                    {
-                        "NRRDE": "2"
-                    },
-                    {
-                        "TTCR": "2"
-                    },
-                    {
-                        "NTREU": "1"
-                    }
+                    { "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo" },
+                    { "NRRDE": "2" },
+                    { "TTCR": "2" },
+                    { "NTREU": "1" }
                 ]
             }
         ],
@@ -90,44 +74,5 @@
             "NRRC": "5",
             "TTCR": "45"
         }
-    },
-    {
-        "input_id": 3,
-        "input_data_by_requirement": [
-            {
-                "req_code": "HU001",
-                "req_name": "Revisar solicitudes de compra",
-                "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
-                    "NRRDE": "2",
-                    "TTCR": "5",
-                    "NTREU": "4"
-                }
-            },
-            {
-                "req_code": "HU002",
-                "req_name": "Incorporar art\u00edculos",
-                "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
-                    "NRRDE": "2",
-                    "TTCR": "5",
-                    "NTREU": "4"
-                }
-            },
-            {
-                "req_code": "HU003",
-                "req_name": "Historia 3 Modificada",
-                "req_data": {
-                    "REQUIREMENT_DESCRIPTION": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera."
-                }
-            }
-        ],
-        "input_data_general": {
-            "NTR": "10",
-            "NRRC": "4",
-            "TTCR": "45"
-        },
-        "input_modification_date": "2024-07-07T14:37:17",
-        "input_status": "DRAFT"
     }
 ]
