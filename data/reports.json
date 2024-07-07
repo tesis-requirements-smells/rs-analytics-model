@@ -1110,5 +1110,1154 @@
                 "tags": []
             }
         ]
+    },
+    {
+        "report_id": 11,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-06T21:41:15",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": []
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "report_id": 12,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-07T12:42:07",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": []
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "report_id": 13,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-07T13:40:20",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": []
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "report_id": 14,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-07T14:37:43",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "completo",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 13
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": [
+                            {
+                                "key": "inferior a",
+                                "value": "NO DISPONIBLE",
+                                "scope": 2,
+                                "position": 5
+                            },
+                            {
+                                "key": "limpio",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 12
+                            },
+                            {
+                                "key": "rapid\u00edsimo",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 16
+                            },
+                            {
+                                "key": "mejor carro que",
+                                "value": "NO DISPONIBLE",
+                                "scope": 3,
+                                "position": 21
+                            },
+                            {
+                                "key": "r\u00e1pidamente",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 33
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": [
+                            {
+                                "key": "limpio",
+                                "value": "NO DISPONIBLE",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": null
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": null
+            }
+        ]
+    },
+    {
+        "report_id": 15,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-07T14:43:49",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "No define una comparaci\u00f3n espec\u00edfica La interpretaci\u00f3n de relativamente puede variar",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "No define un tiempo espec\u00edfico Lo que se considera r\u00e1pido puede variar enormemente entre usuarios, contextos y expectativas",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "No define una comparaci\u00f3n espec\u00edfica La interpretaci\u00f3n de relativamente puede variar",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "No define un tiempo espec\u00edfico Lo que se considera r\u00e1pido puede variar enormemente entre usuarios, contextos y expectativas",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "completo",
+                                "value": "No define el alcance de la completitud La interpretaci\u00f3n de completo puede variar",
+                                "scope": 1,
+                                "position": 13
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": [
+                            {
+                                "key": "inferior a",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 2,
+                                "position": 5
+                            },
+                            {
+                                "key": "limpio",
+                                "value": "No especifica el grado de limpieza La interpretaci\u00f3n de limpio puede variar",
+                                "scope": 1,
+                                "position": 12
+                            },
+                            {
+                                "key": "rapid\u00edsimo",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 1,
+                                "position": 16
+                            },
+                            {
+                                "key": "mejor carro que",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 3,
+                                "position": 21
+                            },
+                            {
+                                "key": "r\u00e1pidamente",
+                                "value": "No define un tiempo espec\u00edfico La velocidad puede ser interpretada de diferentes maneras",
+                                "scope": 1,
+                                "position": 33
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": [
+                            {
+                                "key": "limpio",
+                                "value": "No especifica el grado de limpieza La interpretaci\u00f3n de limpio puede variar",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": null
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": null
+            }
+        ]
+    },
+    {
+        "report_id": 16,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-07T14:52:37",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "No define una comparaci\u00f3n espec\u00edfica. La interpretaci\u00f3n de relativamente puede variar",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "No define un tiempo espec\u00edfico Lo que se considera r\u00e1pido puede variar enormemente entre usuarios, contextos y expectativas",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "relativamente",
+                                "value": "No define una comparaci\u00f3n espec\u00edfica. La interpretaci\u00f3n de relativamente puede variar",
+                                "scope": 1,
+                                "position": 11
+                            },
+                            {
+                                "key": "r\u00e1pido",
+                                "value": "No define un tiempo espec\u00edfico Lo que se considera r\u00e1pido puede variar enormemente entre usuarios, contextos y expectativas",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": [
+                            {
+                                "key": "completo",
+                                "value": "No define el alcance de la completitud. La interpretaci\u00f3n de completo puede variar",
+                                "scope": 1,
+                                "position": 13
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": [
+                            {
+                                "key": "inferior a",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 2,
+                                "position": 5
+                            },
+                            {
+                                "key": "limpio",
+                                "value": "No especifica el grado de limpieza. La interpretaci\u00f3n de limpio puede variar",
+                                "scope": 1,
+                                "position": 12
+                            },
+                            {
+                                "key": "rapid\u00edsimo",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 1,
+                                "position": 16
+                            },
+                            {
+                                "key": "mejor carro que",
+                                "value": "Si no se define el est\u00e1ndar de comparaci\u00f3n, la interpretaci\u00f3n podria variar",
+                                "scope": 3,
+                                "position": 21
+                            },
+                            {
+                                "key": "r\u00e1pidamente",
+                                "value": "No define un tiempo espec\u00edfico. La velocidad puede ser interpretada de diferentes maneras",
+                                "scope": 1,
+                                "position": 33
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": [
+                            {
+                                "key": "limpio",
+                                "value": "No especifica el grado de limpieza. La interpretaci\u00f3n de limpio puede variar",
+                                "scope": 1,
+                                "position": 12
+                            }
+                        ]
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": null
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": null
+            }
+        ]
     }
 ]

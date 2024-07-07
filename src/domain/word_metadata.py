@@ -2,7 +2,7 @@ from googletrans import Translator
 
 class WordMetadata:
 
-    def __init__(self, word_es:str, word_en:str, tag_code:str, tag_desc:str, previous_word:str, next_word:str):
+    def __init__(self, word_es:str, word_en:str, tag_code:str, tag_desc:str, previous_word:str, next_word:str, word_position:int):
         self._translator = Translator()
         self.word_es = word_es
         self._word_en = word_en
@@ -10,6 +10,7 @@ class WordMetadata:
         self.tag_desc = tag_desc
         self.previous_word = previous_word
         self.next_word = next_word
+        self.word_position = word_position
 
     
     def __str__(self):

@@ -24,5 +24,5 @@ print(f'Resultado de PADI: {result}')
 
 text = "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan llegó rapidísimo. Él tiene el mejor carro que Luis y se sintió más feliz que nunca al saberlo. Rápidamente, se preparó para la próxima carrera."
 nlp_metrics_object = NlpMetrics(text)
-result = nlp_metrics_object._evaluate_PADI()
+result = nlp_metrics_object._evaluate_NCCR()
 print(f'Resultado de PADI: {result}')

@@ -1,7 +1,8 @@
 [
     {
         "word": "Amigable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que es amigable para una persona puede no serlo para otra. El término es subjetivo y depende de las preferencias individuales",        
+		"type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -9,7 +10,8 @@
     },
     {
         "word": "Fácil",
-        "type": "Lenguaje subjetivo",
+        "justification": "La facilidad de uso puede variar según la experiencia y el conocimiento del usuario. Un requisito fácil puede ser interpretado de diferentes maneras por diferentes personas",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -18,7 +20,8 @@
     },
     {
         "word": "Rápido",
-        "type": "Lenguaje subjetivo",
+        "justification": "No define un tiempo específico Lo que se considera rápido puede variar enormemente entre usuarios, contextos y expectativas",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -27,7 +30,8 @@
     },
     {
         "word": "Hermoso",
-        "type": "Lenguaje subjetivo",
+        "justification": "La belleza es subjetiva y depende del gusto personal. Un diseño hermoso para una persona puede no serlo para otra",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -36,7 +40,8 @@
     },
     {
         "word": "Interesante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que es interesante para una persona puede no serlo para otra. Depende de los intereses y la perspectiva individual",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -45,7 +50,8 @@
     },
     {
         "word": "Aburrido",
-        "type": "Lenguaje subjetivo",
+        "justification": "La percepción de aburrimiento es subjetiva. Lo que aburre a una persona puede ser entretenido o informativo para otra",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -54,7 +60,8 @@
     },
     {
         "word": "Increíble",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra increíble puede no sorprender a otra. El término es vago y depende de expectativas personales",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -63,7 +70,8 @@
     },
     {
         "word": "Maravilloso",
-        "type": "Lenguaje subjetivo",
+        "justification": "Similar a increíble, lo que una persona considera maravilloso puede no serlo para otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -72,7 +80,8 @@
     },
     {
         "word": "Asombroso",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra asombroso puede no tener el mismo impacto en otra. El término es subjetivo y depende de las expectativas y experiencias previas",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -81,7 +90,8 @@
     },
     {
         "word": "Encantador",
-        "type": "Lenguaje subjetivo",
+        "justification": "La percepción de algo encantador es subjetiva. Lo que una persona encuentra encantador puede no tener el mismo efecto en otra",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -90,7 +100,8 @@
     },
     {
         "word": "Desagradable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra desagradable puede no serlo para otra. Es un término subjetivo y basado en gustos personales",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -99,7 +110,8 @@
     },
     {
         "word": "Fascinante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que fascina a una persona puede no interesar a otra. La fascinación es subjetiva y varía entre individuos",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -108,7 +120,8 @@
     },
     {
         "word": "Deslumbrante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que deslumbra a una persona puede ser común para otra. El término depende de las expectativas y experiencias",
+        "type":"Lenguaje subjetivo",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -117,7 +130,8 @@
     },
     {
         "word": "Exquisito",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera exquisito puede no ser apreciado de la misma manera por otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -126,7 +140,8 @@
     },
     {
         "word": "Admirable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra admirable puede no serlo para otra. La admiración es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -135,7 +150,8 @@
     },
     {
         "word": "Espléndido",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera espléndido puede no impresionar a otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -144,7 +160,8 @@
     },
     {
         "word": "Agradable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra agradable puede no serlo para otra. Es un término subjetivo y depende de preferencias personales",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -153,7 +170,8 @@
     },
     {
         "word": "Desconcertante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que desconcierta a una persona puede no tener el mismo efecto en otra. La percepción de desconcierto es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -162,7 +180,8 @@
     },
     {
         "word": "Edificante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra edificante puede no serlo para otra. Depende de las creencias y valores individuales",
+        "type":"Lenguaje subjetivo",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -171,7 +190,8 @@
     },
     {
         "word": "Conmovedor",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra conmovedor puede no afectar emocionalmente a otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -180,7 +200,8 @@
     },
     {
         "word": "Agobiante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra agobiante puede ser manejable para otra. La percepción de agobio es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -189,7 +210,8 @@
     },
     {
         "word": "Inspirador",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra inspirador puede no tener el mismo efecto en otra. La inspiración es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -198,7 +220,8 @@
     },
     {
         "word": "Desafiante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera desafiante puede no serlo para otra. Depende del nivel de habilidad y experiencia",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -207,7 +230,8 @@
     },
     {
         "word": "Infame",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera infame puede no serlo para otra. La infamia es subjetiva y depende de las percepciones morales",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -216,7 +240,8 @@
     },
     {
         "word": "Resplandeciente",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera resplandeciente puede no parecer tan brillante para otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -225,7 +250,8 @@
     },
     {
         "word": "Electrizante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra electrizante puede no tener el mismo efecto en otra. Depende de las expectativas personales",
+        "type":"Lenguaje subjetivo",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -234,7 +260,8 @@
     },
     {
         "word": "Entrañable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra entrañable puede no tener el mismo valor emocional para otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -243,7 +270,8 @@
     },
     {
         "word": "Desolador",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera desolador puede no tener el mismo impacto en otra. La percepción de desolación es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -252,7 +280,8 @@
     },
     {
         "word": "Inquietante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra inquietante puede no afectar de la misma manera a otra. La percepción de inquietud es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -261,7 +290,8 @@
     },
     {
         "word": "Inolvidable",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona considera inolvidable puede no serlo para otra. La memoria y la importancia de los eventos son subjetivas",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -270,7 +300,8 @@
     },
     {
         "word": "Sublime",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra sublime puede no ser tan impresionante para otra. Es un término subjetivo",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -279,7 +310,8 @@
     },
     {
         "word": "Apasionante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra apasionante puede no interesar a otra. La pasión es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -288,7 +320,8 @@
     },
     {
         "word": "Intrigante",
-        "type": "Lenguaje subjetivo",
+        "justification": "Lo que una persona encuentra intrigante puede no tener el mismo efecto en otra. La intriga es subjetiva",
+        "type":"Lenguaje subjetivo",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -297,7 +330,8 @@
     },
     {
         "word": "Casi|siempre",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. La interpretación de casi siempre puede variar entre personas",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -306,7 +340,8 @@
     },
     {
         "word": "Significativo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Lo que una persona considera significativo puede no tener la misma importancia para otra. La significancia es subjetiva",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -315,7 +350,8 @@
     },
     {
         "word": "Mínimo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un valor específico. Lo que una persona considera mínimo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -324,7 +360,8 @@
     },
     {
         "word": "Opcionalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica cuándo o cómo se debe tomar una opción. Puede llevar a diferentes interpretaciones",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -333,7 +370,8 @@
     },
     {
         "word": "Rápidamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un tiempo específico. La velocidad puede ser interpretada de diferentes maneras",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -342,7 +380,8 @@
     },
     {
         "word": "Cuidadosamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un nivel específico de cuidado. La interpretación de la cuidadosa ejecución puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -351,7 +390,8 @@
     },
     {
         "word": "Frecuentemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. Lo que una persona considera frecuente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -360,7 +400,8 @@
     },
     {
         "word": "Pronto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un tiempo específico. La interpretación de pronto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -369,7 +410,8 @@
     },
     {
         "word": "Bastante",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una cantidad específica. Lo que una persona considera bastante puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -378,7 +420,8 @@
     },
     {
         "word": "Algunas|veces",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. La interpretación de algunas veces puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -387,7 +430,8 @@
     },
     {
         "word": "Mayormente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una proporción específica. La interpretación de mayormente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -396,7 +440,8 @@
     },
     {
         "word": "Apenas",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una cantidad específica. La interpretación de apenas puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -405,7 +450,8 @@
     },
     {
         "word": "Aparentemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No proporciona certeza. Lo que una persona percibe como aparente puede no serlo para otra",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -414,7 +460,8 @@
     },
     {
         "word": "Notablemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un grado específico de notoriedad. La interpretación de notablemente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -423,7 +470,8 @@
     },
     {
         "word": "Hábilmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un nivel específico de habilidad. La interpretación de la habilidad puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -432,7 +480,8 @@
     },
     {
         "word": "Relativamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una comparación específica. La interpretación de relativamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -441,7 +490,8 @@
     },
     {
         "word": "Simultáneamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un marco temporal específico. La interpretación de simultáneamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -450,7 +500,8 @@
     },
     {
         "word": "Probablemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No proporciona certeza. Lo que una persona considera probable puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -459,7 +510,8 @@
     },
     {
         "word": "Intencionalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el motivo ni el alcance de la intención, lo que puede llevar a interpretaciones diferentes",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -468,7 +520,8 @@
     },
     {
         "word": "Eventualmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define cuándo ocurrirá algo. La interpretación de eventualmente puede variar entre personas",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -477,7 +530,8 @@
     },
     {
         "word": "Subjetivamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Depende de la opinión personal. Lo que es subjetivo para una persona puede no serlo para otra",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -486,7 +540,8 @@
     },
     {
         "word": "Absolutamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede ser interpretado de diferentes maneras según el contexto. Lo que una persona considera absoluto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -495,7 +550,8 @@
     },
     {
         "word": "Parcialmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica qué parte o en qué medida. La interpretación de parcialmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -504,7 +560,8 @@
     },
     {
         "word": "Temporalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un marco temporal específico. La duración puede ser interpretada de diferentes maneras",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -513,7 +570,8 @@
     },
     {
         "word": "Constantemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. Lo que una persona considera constante puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -522,7 +580,8 @@
     },
     {
         "word": "Casualmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede ser interpretado como accidental o informalmente. La interpretación de casualmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -531,7 +590,8 @@
     },
     {
         "word": "Regularmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. Lo que una persona considera regular puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -540,7 +600,8 @@
     },
     {
         "word": "Precisamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de precisión. Lo que una persona considera preciso puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -549,7 +610,8 @@
     },
     {
         "word": "Ligeramente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una cantidad específica. La interpretación de ligeramente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -558,7 +620,8 @@
     },
     {
         "word": "Cautelosamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el nivel de cuidado. La interpretación de la cautela puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -567,7 +630,8 @@
     },
     {
         "word": "Virtualmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede ser interpretado como casi completamente o en un entorno virtual. La interpretación puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -576,7 +640,8 @@
     },
     {
         "word": "Ciertamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede no proporcionar suficiente certeza sobre el hecho mencionado. La interpretación de ciertamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -585,7 +650,8 @@
     },
     {
         "word": "Ampliamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un alcance específico. La interpretación de ampliamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -594,7 +660,8 @@
     },
     {
         "word": "Posiblemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No proporciona certeza. Lo que una persona considera posible puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -603,7 +670,8 @@
     },
     {
         "word": "Inesperadamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define qué se considera inesperado. La interpretación puede variar según las expectativas",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -612,7 +680,8 @@
     },
     {
         "word": "Aproximadamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un margen de error específico. La interpretación de aproximadamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -621,7 +690,8 @@
     },
     {
         "word": "Conscientemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el nivel de consciencia. La interpretación de la consciencia puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -630,7 +700,8 @@
     },
     {
         "word": "Explícitamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de claridad. Lo que una persona considera explícito puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -639,7 +710,8 @@
     },
     {
         "word": "Globalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede referirse a todo el mundo o a una totalidad en otro contexto. La interpretación puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -648,7 +720,8 @@
     },
     {
         "word": "Literalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede ser usado incorrectamente para enfatizar. La interpretación de literalmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "X",
@@ -657,7 +730,8 @@
     },
     {
         "word": "Generalmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define una frecuencia específica. La interpretación de generalmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -666,7 +740,8 @@
     },
     {
         "word": "Típicamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define qué se considera típico. La interpretación de típicamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -675,7 +750,8 @@
     },
     {
         "word": "Visualmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de visibilidad. La interpretación de visualmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -684,7 +760,8 @@
     },
     {
         "word": "Sutilmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de sutileza. La interpretación de sutilmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -693,7 +770,8 @@
     },
     {
         "word": "Extrañamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define qué se considera extraño. La interpretación de extrañamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -702,7 +780,8 @@
     },
     {
         "word": "Prolongadamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un periodo específico. La interpretación de prolongadamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -711,7 +790,8 @@
     },
     {
         "word": "Involuntariamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de control. La interpretación de involuntariamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -720,7 +800,8 @@
     },
     {
         "word": "Indirectamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de indirectividad. La interpretación de indirectamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -729,7 +810,8 @@
     },
     {
         "word": "Difusamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de claridad. La interpretación de difusamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -738,7 +820,8 @@
     },
     {
         "word": "Sospechosamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de sospecha. La interpretación de sospechosamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -747,7 +830,8 @@
     },
     {
         "word": "Categóricamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de certeza. La interpretación de categóricamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -756,7 +840,8 @@
     },
     {
         "word": "Inevitablemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define la certeza del resultado. La interpretación de inevitablemente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -765,7 +850,8 @@
     },
     {
         "word": "Vagamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de claridad. La interpretación de vagamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -774,7 +860,8 @@
     },
     {
         "word": "Eficientemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el nivel de eficiencia. La interpretación de eficientemente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -783,7 +870,8 @@
     },
     {
         "word": "Contundentemente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de contundencia. La interpretación de contundentemente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -792,7 +880,8 @@
     },
     {
         "word": "Extremadamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de extremidad. La interpretación de extremadamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -801,7 +890,8 @@
     },
     {
         "word": "Curiosamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "Puede ser interpretado como raro o interesante. La interpretación de curiosamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -810,7 +900,8 @@
     },
     {
         "word": "Solidariamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de solidaridad. La interpretación de solidariamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -819,7 +910,8 @@
     },
     {
         "word": "Agresivamente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de agresión. La interpretación de agresivamente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -828,7 +920,8 @@
     },
     {
         "word": "Inusualmente",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de rareza. La interpretación de inusualmente puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -837,7 +930,8 @@
     },
     {
         "word": "Profundo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de profundidad. La interpretación de profundo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -846,7 +940,8 @@
     },
     {
         "word": "Brillante",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de brillo. Puede ser interpretado de diferentes maneras según el contexto",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -855,7 +950,8 @@
     },
     {
         "word": "Grande",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define un tamaño específico. Lo que una persona considera grande puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -864,7 +960,8 @@
     },
     {
         "word": "Leve",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica la intensidad. La interpretación de leve puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -873,7 +970,8 @@
     },
     {
         "word": "Complejo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el nivel de complejidad. La interpretación de complejo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -882,7 +980,8 @@
     },
     {
         "word": "Oscuro",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de oscuridad. La interpretación de oscuro puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -891,7 +990,8 @@
     },
     {
         "word": "Claro",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de claridad. Puede ser interpretado de diferentes maneras según el contexto",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -900,7 +1000,8 @@
     },
     {
         "word": "Ligero",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el peso o la intensidad. La interpretación de ligero puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -909,7 +1010,8 @@
     },
     {
         "word": "Fuerte",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de fuerza. Puede ser interpretado de diferentes maneras según el contexto",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -918,7 +1020,8 @@
     },
     {
         "word": "Suave",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de suavidad. La interpretación de suave puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -927,7 +1030,8 @@
     },
     {
         "word": "Duro",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de dureza. Puede ser interpretado de diferentes maneras según el contexto",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -936,7 +1040,8 @@
     },
     {
         "word": "Denso",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica la densidad. La interpretación de denso puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -945,7 +1050,8 @@
     },
     {
         "word": "Liviano",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el peso exacto. La interpretación de liviano puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -954,7 +1060,8 @@
     },
     {
         "word": "Agudo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de agudeza. Puede ser interpretado de diferentes maneras según el contexto",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -963,7 +1070,8 @@
     },
     {
         "word": "Real",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el contexto de realidad. La interpretación de real puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -972,7 +1080,8 @@
     },
     {
         "word": "Natural",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica lo que se considera natural. La interpretación puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -981,7 +1090,8 @@
     },
     {
         "word": "Simple",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de simplicidad. La interpretación de simple puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -990,7 +1100,8 @@
     },
     {
         "word": "Breve",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica la duración. La interpretación de breve puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -999,7 +1110,8 @@
     },
     {
         "word": "Completo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el alcance de la completitud. La interpretación de completo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -1008,7 +1120,8 @@
     },
     {
         "word": "Justo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica lo que se considera justo. La interpretación puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1017,7 +1130,8 @@
     },
     {
         "word": "Cálido",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de calidez. La interpretación de cálido puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1026,7 +1140,8 @@
     },
     {
         "word": "Agresivo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el nivel de agresividad. La interpretación de agresivo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1035,7 +1150,8 @@
     },
     {
         "word": "Moderno",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el período de tiempo. Lo que una persona considera moderno puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1044,7 +1160,8 @@
     },
     {
         "word": "Original",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica lo que se considera original. La interpretación puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1053,7 +1170,8 @@
     },
     {
         "word": "Único",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define lo que hace algo único. La interpretación de único puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -1062,7 +1180,8 @@
     },
     {
         "word": "Común",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica la frecuencia o prevalencia. La interpretación de común puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -1071,7 +1190,8 @@
     },
     {
         "word": "Elegante",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de elegancia. La interpretación de elegante puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1080,7 +1200,8 @@
     },
     {
         "word": "Firme",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de firmeza. La interpretación de firme puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1089,7 +1210,8 @@
     },
     {
         "word": "Abierto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de apertura. La interpretación de abierto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1098,7 +1220,8 @@
     },
     {
         "word": "Sutil",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de sutileza. La interpretación de sutil puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1107,7 +1230,8 @@
     },
     {
         "word": "Fresco",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de frescura. La interpretación de fresco puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1116,7 +1240,8 @@
     },
     {
         "word": "Útil",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de utilidad. La interpretación de útil puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1125,7 +1250,8 @@
     },
     {
         "word": "Vivo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de vitalidad. La interpretación de vivo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1134,7 +1260,8 @@
     },
     {
         "word": "Seguro",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de seguridad. La interpretación de seguro puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1143,7 +1270,8 @@
     },
     {
         "word": "Correcto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define lo que se considera correcto. La interpretación de correcto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1152,7 +1280,8 @@
     },
     {
         "word": "Plano",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de planitud. La interpretación de plano puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1161,7 +1290,8 @@
     },
     {
         "word": "Nuevo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de novedad. La interpretación de nuevo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "X",
@@ -1170,7 +1300,8 @@
     },
     {
         "word": "Perfecto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el estándar de perfección. La interpretación de perfecto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1179,7 +1310,8 @@
     },
     {
         "word": "Flexible",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define el grado de flexibilidad. La interpretación de flexible puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1188,7 +1320,8 @@
     },
     {
         "word": "Limpio",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica el grado de limpieza. La interpretación de limpio puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1197,7 +1330,8 @@
     },
     {
         "word": "Corto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define la longitud exacta. La interpretación de corto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1206,7 +1340,8 @@
     },
     {
         "word": "Antiguo",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No especifica la edad exacta. La interpretación de antiguo puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "",
         "syntactic": "",
         "semantic": "",
@@ -1215,7 +1350,8 @@
     },
     {
         "word": "Alto",
-        "type": "Adverbios y adjetivos ambiguos",
+        "justification": "No define la altura exacta. La interpretación de alto puede variar",
+        "type":"Adverbios y adjetivos ambiguos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1224,7 +1360,8 @@
     },
     {
         "word": "Mejor|<adjetivo>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1233,7 +1370,8 @@
     },
     {
         "word": "Mejor|<sustantivo>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1242,7 +1380,8 @@
     },
     {
         "word": "Mejor|<adverbio>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1251,7 +1390,8 @@
     },
     {
         "word": "Más|<adjetivo>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1260,7 +1400,8 @@
     },
     {
         "word": "Más|<sustantivo>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1269,7 +1410,18 @@
     },
     {
         "word": "Más|<adverbio>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
+        "lexical": "X",
+        "syntactic": "",
+        "semantic": "",
+        "vagueness": "X",
+        "incompleteness": ""
+    },
+    {
+        "word": "Menos|<sustantivo>|que",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1278,16 +1430,8 @@
     },
     {
         "word": "Menos|<adjetivo>|que",
-        "type": "Frases comparativas",
-        "lexical": "X",
-        "syntactic": "",
-        "semantic": "",
-        "vagueness": "X",
-        "incompleteness": ""
-    },
-    {
-        "word": "Menos|<adjetivo>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1296,7 +1440,8 @@
     },
     {
         "word": "Menos|<adverbio>|que",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1305,7 +1450,8 @@
     },
     {
         "word": "Superior|a",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1314,7 +1460,8 @@
     },
     {
         "word": "Inferior|a",
-        "type": "Frases comparativas",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Frases comparativas",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1323,7 +1470,8 @@
     },
     {
         "word": "Más|<adjetivo>|",
-        "type": "Superlativos",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Superlativos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1332,7 +1480,8 @@
     },
     {
         "word": "Menos|<adjetivo>|",
-        "type": "Superlativos",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Superlativos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1341,7 +1490,8 @@
     },
     {
         "word": "Muy|<adjetivo>|",
-        "type": "Superlativos",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",
+        "type":"Superlativos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",
@@ -1350,7 +1500,8 @@
     },
     {
         "word": "<adjetivo + ísimo>",
-        "type": "Superlativos",
+        "justification": "Si no se define el estándar de comparación, la interpretación podria variar",    
+		"type":"Superlativos",
         "lexical": "X",
         "syntactic": "",
         "semantic": "",

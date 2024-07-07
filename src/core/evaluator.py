@@ -77,7 +77,7 @@ def get_evaluation_by_requirement(evaluation_data:dict):
 
             if is_nlp_metric:
                 result = nlp_evaluator.evaluate_metric(metric_id)
-                metric_result = get_metric_report(metric, result)
+                metric_result = get_metric_report(metric, result[0], result[1])
                 req_results.append(metric_result)
             else:
                 required_params = metric['params']
@@ -115,7 +115,7 @@ def get_metric_params(input:list, required_params:list):
     return results
 
 
-def get_metric_report(metric_info, result):
+def get_metric_report(metric_info, result, tags = None):
     """ Obtener el diccionario resultado de una metrica según el resultado
     """    
     ranges = metric_info['ranges']
@@ -147,6 +147,6 @@ def get_metric_report(metric_info, result):
         "classification": classification,
         "description": description,
         "severity": severity,
-        "tags": []
+        "tags": tags
     }
 

@@ -42,51 +42,66 @@ tags_dict = {
 
 def get_smells_by_ambiguity_type(ambiguity_types:list, smells:list):    
     result = []
+    tmp_list = []
     
     for elemento in smells:
         if any(campo in elemento and elemento[campo] == 'X' for campo in ambiguity_types):
-            result.append(elemento['word'].lower())
+            lower_smell = elemento['word'].lower() 
 
-    return list(set(result))
+            if lower_smell not in tmp_list:
+                tmp_list.append(lower_smell)
+                result.append({
+                    'word': lower_smell,
+                    'justification': elemento['justification'] if 'justification' in elemento else 'NO DISPONIBLE'
+                })
+
+    return result
 
 
 def is_word_an_smell(word:WordMetadata, smell_list:list, tags:list):
     for smell in smell_list:
         # Validar olor de una sola palabra
-        terms_affected = _word_match(word, smell, tags)
-        if terms_affected > 0:
-            return terms_affected
+        word_match_result = _word_match(word, smell, tags)
+        if word_match_result[0] > 0:
+            return word_match_result
 
-    return 0
+    return (0, None, None)
 
 
-def _word_match(word:WordMetadata, smell:str, tags:list = None):
+def _word_match(word:WordMetadata, smell_dict:dict, tags:list = None):
     word_es = word.word_es.lower()
     word_prefix = word.previous_word.lower()
     word_sufix = word.next_word.lower()
-    composed_smell = smell.split('|')
-    clean_smell = smell.replace('|', ' ')
-    
-    smell = smell.lower()
+    smell_word = smell_dict['word']
+    smell_desc = smell_dict['justification']
+    composed_smell = smell_word.split('|')
+    clean_smell = smell_word.replace('|', ' ')    
+    smell = smell_word.lower()
+    composed_word = ''
+
     if word_es == smell:
         print(f'Smell encontrado, coincidencia exacta en palabra <{word_es}>')
-        return 1
+        composed_word = word_es
+        return (1, composed_word, smell_desc)
     if smell.startswith('<') and smell.endswith('ísimo>') and word_es.endswith('ísimo'):
         print(f'Smell encontrado en palabra <{word_es}> para smell genérico <{smell}>')
-        return 1
+        composed_word = word_es
+        return (1, composed_word, smell_desc)
     
     # terminos de dos palabras basicas
     if len(composed_smell) == 2 and word_prefix != '':
-        composed_word = ' '.join([word.previous_word, word.word_es])        
-        if composed_word.lower() == clean_smell.lower():
+        composed_word_tmp = ' '.join([word.previous_word, word.word_es])        
+        if composed_word_tmp.lower() == clean_smell.lower():
             print(f'Smell compuesto de 2 encontrado, coincidencia exacta en término <{clean_smell}>')
-            return 2
+            composed_word = composed_word_tmp
+            return (2, composed_word, smell_desc)
     # terminos de tres palabras basicas
     if len(composed_smell) == 3 and word_prefix != '' and word_sufix != '':
-        composed_word = ' '.join([word.previous_word, word.word_es, word.next_word])
-        if composed_word.lower() == clean_smell.lower():
+        composed_word_tmp = ' '.join([word.previous_word, word.word_es, word.next_word])
+        if composed_word_tmp.lower() == clean_smell.lower():
             print(f'Smell compuesto de 3 encontrado, coincidencia exacta en término <{clean_smell}>')
-            return 3
+            composed_word = composed_word_tmp
+            return (3, composed_word, smell_desc)
 
     if '<' in smell and '>' in smell and len(composed_smell) == 3:
         smell_scope = 1            
@@ -111,10 +126,12 @@ def _word_match(word:WordMetadata, smell:str, tags:list = None):
                         smell_scope = smell_scope + 1 if smell_prefix != '' else smell_scope
                         smell_scope = smell_scope + 1 if smell_sufix != '' else smell_scope
 
-                        full_term = ' '.join([word.word_es, word.previous_word, word.next_word])
-                        print(f'Smell encontrado en término <{full_term}> para smell genérico <{clean_smell}>, scope: <{smell_scope}>')
-                        return smell_scope
+                        if smell_scope == 3: composed_word = ' '.join([word.previous_word, word.word_es, word.next_word])
+                        if smell_scope == 2: composed_word = ' '.join([word.previous_word, word.word_es])
+
+                        print(f'Smell encontrado en término <{composed_word}> para smell genérico <{clean_smell}>, scope: <{smell_scope}>')
+                        return (smell_scope, composed_word, smell_desc)
                     else:
-                        return 0
+                        return (0, composed_word, None)
     
-    return 0
+    return (0, composed_word, None)

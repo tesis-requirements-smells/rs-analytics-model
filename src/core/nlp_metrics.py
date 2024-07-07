@@ -93,8 +93,9 @@ class NlpMetrics:
             tag_desc = None # Se calcula cuando se necesite para reducir las llamadas al API de Google
             previous_word = words_es_list[i - 1] if i > 0 else ''
             next_word = words_es_list[i + 1] if i < (len(words_es_list) - 1) else ''
+            word_position = i
 
-            words.append(WordMetadata(word_es, word_en, tag_code, tag_desc, previous_word, next_word))
+            words.append(WordMetadata(word_es, word_en, tag_code, tag_desc, previous_word, next_word, word_position))
 
         return words
 
@@ -119,36 +120,62 @@ class NlpMetrics:
         ambiguity_types = ['lexical', 'syntactic', 'semantic', 'vagueness']
         smells_list = nlp_utils.get_smells_by_ambiguity_type(ambiguity_types, self.smells_dict)  
         NTA = 0
+        metric_tags = []
+
         for word in self.words_metadata:
-            NTA = NTA + nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+            evaluation_result = nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+            words_affected = evaluation_result[0]
+            
+            if words_affected > 0:
+                NTA = NTA + words_affected
+                metric_tags.append({
+                    'key': evaluation_result[1],
+                    'value': evaluation_result[2],
+                    'scope': words_affected,
+                    'position': word.word_position
+                }) 
 
-        print(f'Smells detectados para métrica PADI: {NTA}')   
+        metric_result = (int(NTA) / int(self.NTT)) * 100 
+        print(f'Smells detectados para métrica PADI: {NTA}, resultado de PADI: {metric_result}')
 
-        return (int(NTA) / int(self.NTT)) * 100
+        return (metric_result, metric_tags)
     
 
     def _evaluate_PTOR(self):
         #TODO Pendiente como abordar esta metrica
-        return 0
+        return (0, [])
     
 
     def _evaluate_PI(self):         
         ambiguity_types = ['incompleteness']
         smells_list = nlp_utils.get_smells_by_ambiguity_type(ambiguity_types, self.smells_dict)  
         NTI = 0
+        metric_tags = []
+
         for word in self.words_metadata:
-            NTI = NTI + nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+            evaluation_result = nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+            words_affected = evaluation_result[0]
+            
+            if words_affected > 0:
+                NTI = NTI + words_affected
+                metric_tags.append({
+                    'key': evaluation_result[1],
+                    'value': evaluation_result[2],
+                    'scope': words_affected,
+                    'position': word.word_position
+                }) 
 
-        print(f'Smells detectados para métrica PI: {NTI}')   
+        metric_result = (int(NTI) / int(self.NTT)) * 100 
+        print(f'Smells detectados para métrica PI: {NTI}, resultado de PI: {metric_result}')
 
-        return (int(NTI) / int(self.NTT)) * 100
+        return (metric_result, metric_tags)
     
 
     def _evaluate_PHTRS(self):
         #TODO Pendiente como abordar esta metrica
-        return 0
+        return (0, [])
     
 
     def _evaluate_NCCR(self):
-        return 0
+        return (0, [])
     
