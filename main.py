@@ -42,11 +42,7 @@ def get_reports_resume():
     # Devolver solo los campos de resumen
     reports_resume = [{field: d[field] for field in REPORTS_RESUME_FIELDS} for d in reports_resume]
 
-    response = jsonify({
-        reports_resume
-    })
-
-    return response
+    return jsonify(reports_resume)
 
 
 # Listado de reportes resumido, paginado
@@ -119,9 +115,7 @@ def get_evaluation_data_list(status:str):
     if status != 'ALL':
         evaluation_data = [d for d in evaluation_data if d['input_status'] == status]
 
-    return jsonify({
-        evaluation_data
-    })
+    return jsonify(evaluation_data)
 
 
 # Obtener listado de datos de evaluacion paginado, filtrados por estado
