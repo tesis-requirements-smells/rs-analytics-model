@@ -1,30 +1,35 @@
 [
     {
         "report_id": 1,
-        "report_name": "Evaluación de ejemplo # 1",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 1",
         "report_date": "2024-04-10T12:34:56",
         "report_overall_score": 75.12,
-        "results_by_requirement": [ 
-            { 
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -32,64 +37,69 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     },
                     {
                         "metric_id": "10",
-                        "metric_name": "Métrica ejemplo 10",
+                        "metric_name": "M\u00e9trica ejemplo 10",
                         "score": 1.5,
-                        "classification": "Clasificación X",
+                        "classification": "Clasificaci\u00f3n X",
                         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                         "severity": "MEDIA"
                     },
                     {
                         "metric_id": "11",
-                        "metric_name": "Métrica ejemplo 11",
+                        "metric_name": "M\u00e9trica ejemplo 11",
                         "score": 1.5,
-                        "classification": "Clasificación X",
+                        "classification": "Clasificaci\u00f3n X",
                         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                         "severity": "MEDIA"
                     },
                     {
                         "metric_id": "12",
-                        "metric_name": "Métrica ejemplo 12",
+                        "metric_name": "M\u00e9trica ejemplo 12",
                         "score": 1.5,
-                        "classification": "Clasificación X",
+                        "classification": "Clasificaci\u00f3n X",
                         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                         "severity": "MEDIA"
                     },
                     {
                         "metric_id": "13",
-                        "metric_name": "Métrica ejemplo 13",
+                        "metric_name": "M\u00e9trica ejemplo 13",
                         "score": 1.5,
-                        "classification": "Clasificación X",
+                        "classification": "Clasificaci\u00f3n X",
                         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -97,32 +107,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -132,49 +142,49 @@
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             },
             {
                 "metric_id": "5",
-                "metric_name": "Métrica ejemplo 5",
+                "metric_name": "M\u00e9trica ejemplo 5",
                 "score": 1.5,
-                "classification": "Clasificación X",
+                "classification": "Clasificaci\u00f3n X",
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                 "severity": "MEDIA"
             },
             {
                 "metric_id": "6",
-                "metric_name": "Métrica ejemplo 6",
+                "metric_name": "M\u00e9trica ejemplo 6",
                 "score": 1.5,
-                "classification": "Clasificación X",
+                "classification": "Clasificaci\u00f3n X",
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                 "severity": "MEDIA"
             },
             {
                 "metric_id": "7",
-                "metric_name": "Métrica ejemplo 7",
+                "metric_name": "M\u00e9trica ejemplo 7",
                 "score": 1.5,
-                "classification": "Clasificación X",
+                "classification": "Clasificaci\u00f3n X",
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                 "severity": "MEDIA"
             },
             {
                 "metric_id": "8",
-                "metric_name": "Métrica ejemplo 8",
+                "metric_name": "M\u00e9trica ejemplo 8",
                 "score": 1.5,
-                "classification": "Clasificación X",
+                "classification": "Clasificaci\u00f3n X",
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                 "severity": "MEDIA"
             },
             {
                 "metric_id": "9",
-                "metric_name": "Métrica ejemplo 9",
+                "metric_name": "M\u00e9trica ejemplo 9",
                 "score": 1.5,
-                "classification": "Clasificación X",
+                "classification": "Clasificaci\u00f3n X",
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim",
                 "severity": "MEDIA"
             }
@@ -182,30 +192,35 @@
     },
     {
         "report_id": 2,
-        "report_name": "Evaluación de ejemplo # 2",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 2",
         "report_date": "2024-04-11T12:34:56",
         "report_overall_score": 70.12,
-        "results_by_requirement": [ 
-            { 
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -213,32 +228,37 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -246,32 +266,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -281,40 +301,45 @@
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             }
         ]
     },
     {
         "report_id": 3,
-        "report_name": "Evaluación de ejemplo # 3",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 3",
         "report_date": "2024-04-11T12:34:56",
         "report_overall_score": 10.12,
-        "results_by_requirement": [ 
-            { 
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -322,32 +347,37 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -355,32 +385,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -390,40 +420,45 @@
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             }
         ]
     },
     {
         "report_id": 4,
-        "report_name": "Evaluación de ejemplo # 4",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 4",
         "report_date": "2024-04-08T12:34:56",
         "report_overall_score": 20.12,
-        "results_by_requirement": [ 
-            { 
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -431,32 +466,37 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            {  
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -464,32 +504,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -499,40 +539,45 @@
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             }
         ]
     },
     {
         "report_id": 5,
-        "report_name": "Evaluación de ejemplo # 5",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 5",
         "report_date": "2024-04-10T12:34:56",
         "report_overall_score": 40.12,
-        "results_by_requirement": [ 
-            { 
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -540,32 +585,37 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -573,32 +623,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -608,57 +658,62 @@
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             }
         ]
     },
     {
         "report_id": 6,
-        "report_name": "Evaluación de ejemplo # 6",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 6",
         "report_date": "2024-04-10T12:34:56",
         "report_overall_score": 40.12,
         "results_by_requirement": [],
         "results_general": [
             {
                 "metric_id": "4",
-                "metric_name": "Promedio de tiempo de comprensión de requisitos de software",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
                 "score": 1.5,
-                "classification": "Tiempo de comprensión deficiente",
-                "description": "Existe una deficiencia en la comprensión de los requisitos, donde el proceso de interpretación se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones",
                 "severity": "ALTA"
             }
         ]
     },
     {
         "report_id": 7,
-        "report_name": "Evaluación de ejemplo # 7",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 7",
         "report_date": "2024-04-10T12:34:56",
         "report_overall_score": 40.12,
-        "results_by_requirement": [ 
-            {  
-                "req_code": "HU001", 
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
                 "req_name": "Revisar solicitudes de compra",
-                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisición de nuevos productos",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "productos", "value": "La palabra 'productos' tiene un sinónimo en el requisito 'HU002': 'artículos'"}]
+                        "tags": [
+                            {
+                                "key": "productos",
+                                "value": "La palabra 'productos' tiene un sin\u00f3nimo en el requisito 'HU002': 'art\u00edculos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -666,32 +721,37 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU002", 
-                "req_name": "Incorporar artículos",
-                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos artículos al inventario para mantener actualizado el catálogo",
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
                 "results": [
                     {
                         "metric_id": "1",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Heterogeneidad Alta",
-                        "description": "No existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "No existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "ALTA",
-                        "tags": [{"key": "artículos", "value": "La palabra 'artículos' tiene un sinónimo en el requisito 'HU001': 'productos'"}]
+                        "tags": [
+                            {
+                                "key": "art\u00edculos",
+                                "value": "La palabra 'art\u00edculos' tiene un sin\u00f3nimo en el requisito 'HU001': 'productos'"
+                            }
+                        ]
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     },
@@ -699,32 +759,32 @@
                         "metric_id": "3",
                         "metric_name": "Indicador de semanas estimadas para finalizar una historia de usuario",
                         "score": 3,
-                        "classification": "Estimación aceptable",
-                        "description": "Aunque la historia podría ser más pequeña, la estimación sigue siendo razonable y permite una implementación en un plazo aceptable",
+                        "classification": "Estimaci\u00f3n aceptable",
+                        "description": "Aunque la historia podr\u00eda ser m\u00e1s peque\u00f1a, la estimaci\u00f3n sigue siendo razonable y permite una implementaci\u00f3n en un plazo aceptable",
                         "severity": "MEDIA"
                     }
                 ]
             },
-            { 
-                "req_code": "HU003", 
+            {
+                "req_code": "HU003",
                 "req_name": "registro",
-                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por día para identificar tendencias de venta",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
                 "results": [
                     {
                         "metric_id": "0",
-                        "metric_name": "Porcentaje de heterogeneidad en la terminología de los requisitos de software por el uso de sinónimos",
+                        "metric_name": "Porcentaje de heterogeneidad en la terminolog\u00eda de los requisitos de software por el uso de sin\u00f3nimos",
                         "score": 66.6,
                         "classification": "Sin heterogeneidad",
-                        "description": "Todos los requisitos de software utilizan términos que no tienen sinónimos en otros requisitos; es decir, existe claridad y uniformidad en la terminología de los requisitos",
+                        "description": "Todos los requisitos de software utilizan t\u00e9rminos que no tienen sin\u00f3nimos en otros requisitos; es decir, existe claridad y uniformidad en la terminolog\u00eda de los requisitos",
                         "severity": "OK",
                         "tags": []
                     },
                     {
                         "metric_id": "2",
-                        "metric_name": "Porcentaje de ambigüedad por diferentes interpretaciones de un requisito de software",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
                         "score": 0,
-                        "classification": "Sin ambigüedad",
-                        "description": "El requisito está definido de manera clara, sin lugar a interpretaciones diversas",
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas",
                         "severity": "OK",
                         "tags": []
                     }
@@ -735,8 +795,320 @@
     },
     {
         "report_id": 8,
-        "report_name": "Evaluación de ejemplo # 8",
+        "report_name": "Evaluaci\u00f3n de ejemplo # 8",
         "report_date": "2024-04-10T12:34:56",
         "report_overall_score": 40.12
+    },
+    {
+        "report_id": 9,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-06T20:35:14",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como supervisor de compras, quiero poder revisar las solicitudes de compra realizadas por los departamentos internos para autorizar la adquisici\u00f3n de nuevos productos",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener actualizado el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "registro",
+                "req_detail": "Como administrador del sistema, quiero poder ver el total de ventas por d\u00eda para identificar tendencias de venta",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin ambig\u00fcedad",
+                        "description": "El requisito est\u00e1 definido de manera clara, sin lugar a interpretaciones diversas.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": []
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "report_id": 10,
+        "report_name": "Reporde # 3 generado desde postman",
+        "report_date": "2024-07-06T20:35:46",
+        "results_by_requirement": [
+            {
+                "req_code": "HU001",
+                "req_name": "Revisar solicitudes de compra",
+                "req_detail": "Como usuario, quiero que el sistema procese mis solicitudes de compra relativamente r\u00e1pido para que no tenga que esperar mucho tiempo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 9.523809523809524,
+                        "classification": "Incompletitud regular",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos ambiguos, lo que puede llevar a impedir la verificaci\u00f3n de los detalles del requisito.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU002",
+                "req_name": "Incorporar art\u00edculos",
+                "req_detail": "Como administrador del sistema, quiero poder incorporar nuevos art\u00edculos al inventario para mantener completo el cat\u00e1logo",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 6.25,
+                        "classification": "Ambig\u00fcedad media",
+                        "description": "El requisito de software presenta una cantidad considerable de t\u00e9rminos que no son claros, lo que puede llevar a interpretaciones diferentes.",
+                        "severity": "MEDIA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 0.0,
+                        "classification": "Sin imprecisi\u00f3n",
+                        "description": "El requisito est\u00e1 definido de manera precisa, proporcionando una base s\u00f3lida para su verificaci\u00f3n.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            },
+            {
+                "req_code": "HU003",
+                "req_name": "Historia 3 Modificada",
+                "req_detail": "El segundo lugar es inferior a lo esperado, pero el coche estaba limpio y Juan lleg\u00f3 rapid\u00edsimo. \u00c9l tiene el mejor carro que Luis y se sinti\u00f3 m\u00e1s feliz que nunca al saberlo. R\u00e1pidamente, se prepar\u00f3 para la pr\u00f3xima carrera.",
+                "results": [
+                    {
+                        "metric_id": "PADI",
+                        "metric_name": "Porcentaje de ambig\u00fcedad por diferentes interpretaciones de un requisito de software",
+                        "score": 20.0,
+                        "classification": "Ambig\u00fcedad alta",
+                        "description": "La descripci\u00f3n del requisito de software es confusa y no es clara, lo que dificulta entender lo que se espera del software. ",
+                        "severity": "ALTA",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PTOR",
+                        "metric_name": "Porcentaje de uso de t\u00e9rminos opuestos en un requisito de software",
+                        "score": 0,
+                        "classification": "Sin uso de t\u00e9rminos opuestos",
+                        "description": "El requisito no presenta t\u00e9rminos opuestos en su descripci\u00f3n. Por lo tanto, el requisito no se considera compuesto.",
+                        "severity": "OK",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "PI",
+                        "metric_name": "Porcentaje de incompletitud de un requisito de software",
+                        "score": 2.5,
+                        "classification": "Incompletitud leve",
+                        "description": "El requisito es lo suficientemente completo seg\u00fan su terminolog\u00eda y no impide realizar su verificaci\u00f3n o implementaci\u00f3n.",
+                        "severity": "LEVE",
+                        "tags": []
+                    },
+                    {
+                        "metric_id": "NCCR",
+                        "metric_name": "N\u00famero de conjunciones o conectores en un requisito de software",
+                        "score": 0,
+                        "classification": "Requisito conciso",
+                        "description": "El requisito no presenta ninguna conjunci\u00f3n o conector, lo que indica que est\u00e1 enfocado y aborda de manera clara y directa una \u00fanica necesidad o funcionalidad.",
+                        "severity": "OK",
+                        "tags": []
+                    }
+                ]
+            }
+        ],
+        "results_general": [
+            {
+                "metric_id": "PRRC",
+                "metric_name": "Porcentaje de requisitos de software revisados por todos los clientes",
+                "score": 40.0,
+                "classification": "Revisi\u00f3n media",
+                "description": "Indica que pocos requisitos han sido revisados por todos los stakeholders.",
+                "severity": "MEDIA",
+                "tags": []
+            },
+            {
+                "metric_id": "PTCR",
+                "metric_name": "Promedio de tiempo de comprensi\u00f3n de requisitos de software",
+                "score": 4.5,
+                "classification": "Tiempo de comprensi\u00f3n deficiente",
+                "description": "Existe una deficiencia en la comprensi\u00f3n de los requisitos, donde el proceso de interpretaci\u00f3n se ve afectado negativamente, requiriendo un tiempo excesivo para aclaraciones.",
+                "severity": "ALTA",
+                "tags": []
+            }
+        ]
     }
 ]
