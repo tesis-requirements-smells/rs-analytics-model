@@ -149,15 +149,15 @@
                 "severity": "OK"
             },
             {
-                "min": 20,
-                "max": 50,
+                "min": 0,
+                "max": 2,
                 "classification": "Concisión aceptable",
                 "description": "El requisito presenta una cantidad mínima de conjunciones o conectores. Aunque podría beneficiarse de cierta simplificación, aún es manejable y no se considera excesivamente extenso.",
                 "severity": "MEDIA"
             },
             {
-                "min": 50,
-                "max": 100,
+                "min": 3,
+                "max": 9999999,
                 "classification": "Concisión baja",
                 "description": "El requisito presenta una cantidad alta de conjunciones o conectores, lo que indica que el requisito podría estar abarcando demasiadas funcionalidades o necesidades en un solo enunciado.",
                 "severity": "ALTA"

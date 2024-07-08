@@ -130,9 +130,9 @@ class NlpMetrics:
                 NTA = NTA + words_affected
                 metric_tags.append({
                     'key': evaluation_result[1],
-                    'value': evaluation_result[2],
-                    'scope': words_affected,
-                    'position': word.word_position
+                    'value': evaluation_result[2]
+                    #'scope': words_affected,
+                    #'position': word.word_position
                 }) 
 
         metric_result = (int(NTA) / int(self.NTT)) * 100 
@@ -160,9 +160,9 @@ class NlpMetrics:
                 NTI = NTI + words_affected
                 metric_tags.append({
                     'key': evaluation_result[1],
-                    'value': evaluation_result[2],
-                    'scope': words_affected,
-                    'position': word.word_position
+                    'value': evaluation_result[2]
+                    #'scope': words_affected,
+                    #'position': word.word_position
                 }) 
 
         metric_result = (int(NTI) / int(self.NTT)) * 100 
@@ -177,5 +177,24 @@ class NlpMetrics:
     
 
     def _evaluate_NCCR(self):
-        return (0, [])
+        ambiguity_types = ['cc']
+        smells_list = nlp_utils.get_smells_by_ambiguity_type(ambiguity_types, self.smells_dict)  
+        NCCR = 0
+        metric_tags = []
+
+        for word in self.words_metadata:
+            evaluation_result = nlp_utils.is_word_an_smell(word, smells_list, self.tags)
+            words_affected = evaluation_result[0]
+            
+            if words_affected > 0:
+                NCCR = NCCR + words_affected
+                metric_tags.append({
+                    'key': evaluation_result[1],
+                    'value': evaluation_result[2]
+                    #'scope': words_affected,
+                    #'position': word.word_position
+                }) 
+
+        print(f'Smells detectados para métrica NCCR: {NCCR}')
+        return (NCCR, metric_tags)
     

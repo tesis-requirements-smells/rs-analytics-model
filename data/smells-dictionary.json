@@ -1507,5 +1507,1024 @@
         "semantic": "",
         "vagueness": "X",
         "incompleteness": ""
-    }
+    },
+    {
+        "word":"y",
+        "justification":"Conecta múltiples ideas que podrían ser independientes",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"además",
+        "justification":"Agrega información adicional que puede ser tratada por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"también",
+        "justification":"Introduce información adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ni",
+        "justification":"Negación de múltiples elementos, puede complicar la claridad del requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"tampoco",
+        "justification":"Negación adicional que podría ser más clara en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"incluso",
+        "justification":"Añade información que puede no ser esencial para el requisito principal",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"asimismo",
+        "justification":"Introduce información adicional que podría ser independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"aparte",
+        "justification":"Añade detalles adicionales que pueden ser tratados por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"es más",
+        "justification":"Suma información adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"y encima",
+        "justification":"Introduce detalles adicionales que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para remate",
+        "justification":"Agrega información que podría ser tratada de forma independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para colmo",
+        "justification":"Introduce información adicional que puede no ser necesaria para el requisito principal",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a propósito",
+        "justification":"Añade información adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"igualmente",
+        "justification":"Suma detalles que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"cabe agregar",
+        "justification":"Introduce información adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por añadidura",
+        "justification":"Añade detalles adicionales que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de igual modo",
+        "justification":"Introduce información adicional que puede ser tratada por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de igual manera",
+        "justification":"Suma detalles adicionales que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"del mismo modo",
+        "justification":"Añade información que podría complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"la misma manera",
+        "justification":"Introduce detalles que pueden ser tratados por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por su parte",
+        "justification":"Añade información que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por otra parte",
+        "justification":"Introduce detalles adicionales que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"excepto",
+        "justification":"Define excepciones que pueden ser tratadas de forma independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"salvo",
+        "justification":"Introduce excepciones que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"menos",
+        "justification":"Define excepciones que pueden ser tratadas por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a excepción de",
+        "justification":"Introduce detalles que podrían complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"fuera de",
+        "justification":"Añade excepciones que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ya sea",
+        "justification":"Introduce opciones que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"o bien",
+        "justification":"Añade alternativas que podrían ser tratadas por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"bien sea",
+        "justification":"Introduce opciones que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"tan pronto",
+        "justification":"Añade una condición temporal que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"o",
+        "justification":"Introduce alternativas que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"u",
+        "justification":"Añade opciones que podrían ser tratadas por separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"si no",
+        "justification":"Introduce una condición negativa que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"al contrario",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por el contrario",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"contrariamente",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en contraste",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en oposición a",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"opuesto a eso",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ahora bien",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en cambio",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"pero",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"sin embargo",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"no obstante",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"aunque",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"empero",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"aun así",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"así y todo",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"aun cuando",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"si bien",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a pesar de",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"pese a",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"con todo",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de cualquier forma",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de cualquier modo",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de cualquier manera",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de todas formas",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de todos modos",
+        "justification":"Añade detalles que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de todas maneras",
+        "justification":"Introduce información que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en todo caso",
+        "justification":"Introduce un caso adicional que puede complicar la claridad del requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"porque",
+        "justification":"Introduce una causa que puede ser tratada como un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ya que",
+        "justification":"Agrega una razón que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"dado que",
+        "justification":"Introduce una condición que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"debido a",
+        "justification":"Agrega una causa que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por ello",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por eso",
+        "justification":"Añade una razón que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"puesto que",
+        "justification":"Introduce una causa que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por causa de",
+        "justification":"Agrega una razón que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por consiguiente",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en consecuencia",
+        "justification":"Añade un resultado que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"consecuentemente",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"entonces",
+        "justification":"Agrega una secuencia que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"así pues",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"luego",
+        "justification":"Añade una secuencia que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"conque",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por ende",
+        "justification":"Añade una razón que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por tanto",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por lo tanto",
+        "justification":"Añade una consecuencia que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de modo que",
+        "justification":"Introduce una consecuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de manera que",
+        "justification":"Añade una consecuencia que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para que",
+        "justification":"Introduce un propósito que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a fin de",
+        "justification":"Añade un propósito que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a los fines de",
+        "justification":"Introduce un propósito que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a efectos de",
+        "justification":"Añade un propósito que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"con el propósito",
+        "justification":"Introduce una intención que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"si",
+        "justification":"Añade una condición que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en caso de",
+        "justification":"Introduce una condición que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"siempre que",
+        "justification":"Añade una condición que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"siempre y cuando",
+        "justification":"Introduce una condición que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"así como",
+        "justification":"Añade una comparación que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"tal como",
+        "justification":"Introduce una comparación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"igual que",
+        "justification":"Añade una comparación que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"como ocurre con",
+        "justification":"Introduce una comparación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a semejanza de",
+        "justification":"Añade una comparación que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"diferente a",
+        "justification":"Introduce una comparación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a diferencia de",
+        "justification":"Añade una comparación que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ante todo",
+        "justification":"Introduce una prioridad que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"antes que nada",
+        "justification":"Añade una prioridad que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en primer lugar",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en primer término",
+        "justification":"Añade una prioridad que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"primeramente",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de entrada",
+        "justification":"Añade una prioridad que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para empezar",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para comenzar",
+        "justification":"Añade una secuencia que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para dar inicio",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para continuar",
+        "justification":"Añade una secuencia que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para seguir",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en segundo lugar",
+        "justification":"Añade una secuencia que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"continuando",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a continuación",
+        "justification":"Añade una secuencia que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"seguidamente",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"dicho esto",
+        "justification":"Añade una referencia que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"dicho lo cual",
+        "justification":"Introduce una referencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en ese sentido",
+        "justification":"Añade una referencia que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por último",
+        "justification":"Introduce una secuencia que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para finalizar",
+        "justification":"Puede sugerir la conclusión de un requisito largo y complejo que debería ser dividido",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ya para finalizar",
+        "justification":"Introduce una conclusión que puede implicar múltiples ideas, sugiriendo la necesidad de división",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"finalmente",
+        "justification":"Indica una conclusión que puede estar compuesta por varias partes, sugiriendo separación",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en conclusión",
+        "justification":"Puede introducir un resumen que agrupe varios puntos, lo que sugiere que deben estar separados",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para concluir",
+        "justification":"Sugerencia de que el requisito abarca múltiples puntos que podrían ser divididos",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"concluyendo",
+        "justification":"Puede implicar la necesidad de división del requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para cerrar",
+        "justification":"Puede indicar el fin de una lista de elementos que deberían ser divididos",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para terminar",
+        "justification":"Puede sugerir la presencia de múltiples ideas",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por cierto",
+        "justification":"Introduce información adicional que puede complicar el requisito y debería ser separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a propósito de",
+        "justification":"Añade un comentario adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"entre paréntesis",
+        "justification":"Introduce una aclaración o comentario que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"dicho sea",
+        "justification":"Agrega un comentario adicional que debería estar separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a todo esto",
+        "justification":"Introduce información adicional que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en resumen",
+        "justification":"Puede implicar que el requisito es un resumen de varios puntos que deberían ser separados",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"resumiendo",
+        "justification":"Puede sugerir la necesidad de división del requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en síntesis",
+        "justification":"Indica que el requisito es un resumen de varios puntos, sugiriendo separación",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para recalcar",
+        "justification":"Introduce una idea adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"como se dijo",
+        "justification":"Hace referencia a información previa que puede complicar el requisito actual",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"como ya dije",
+        "justification":"Añade información previa que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"recapitulando",
+        "justification":"Implica un resumen que puede agrupar varios puntos, sugiriendo separación",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por ejemplo",
+        "justification":"Introduce ejemplos que pueden complicar el requisito y deberían ser separados",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para ejemplificar",
+        "justification":"Añade ejemplos que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"verbigracia",
+        "justification":"Introduce ejemplos que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"para ilustrar",
+        "justification":"Añade ilustraciones que podrían estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"ponte tú",
+        "justification":"Introduce ejemplos que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"pongamos por caso",
+        "justification":"Añade ejemplos que deberían estar separados",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"es decir",
+        "justification":"Añade una aclaración que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"o sea",
+        "justification":"Introduce aclaraciones que podrían estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"esto es",
+        "justification":"Introduce aclaraciones que pueden complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"mejor dicho",
+        "justification":"Añade una corrección o aclaración que podría estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en otras palabrasAñade una aclaración que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en otros términos",
+        "justification":"Introduce una aclaración adicional que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de otro modo",
+        "justification":"Añade una alternativa que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de otra manera",
+        "justification":"Introduce una alternativa que debería estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"parafraseando",
+        "justification":"Introduce una reformulación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"reformulando",
+        "justification":"Añade una reformulación que debería estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"mejor aún",
+        "justification":"Introduce una opción mejorada que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"más bien",
+        "justification":"Añade una corrección que podría estar en un requisito independiente",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por mejor decir",
+        "justification":"Introduce una corrección que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"quise decir",
+        "justification":"Añade una aclaración que podría estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"vale decir",
+        "justification":"Introduce una aclaración que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en realidad",
+        "justification":"Introduce una corrección o aclaración que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"de hecho",
+        "justification":"Añade una aclaración que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"en efecto",
+        "justification":"Introduce una aclaración que podría estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"efectivamente",
+        "justification":"Añade una confirmación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"aparentemente",
+        "justification":"Introduce una suposición que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"realmente",
+        "justification":"Añade una aclaración que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por lo visto",
+        "justification":"Introduce una suposición que podría estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"presuntamente",
+        "justification":"Añade una suposición que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"probablemente",
+        "justification":"Introduce una probabilidad que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"por supuesto que",
+        "justification":"Añade una confirmación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"sin duda",
+        "justification":"Introduce una confirmación que debería estar separada",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"sin duda alguna",
+        "justification":"Añade una confirmación que puede complicar el requisito",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     },
+     {
+        "word":"a lo mejor",
+        "justification":"Introduce una posibilidad que podría estar en un requisito separado",
+        "type":"Conjunciones y conectores",
+        "cc":"X"
+     }
 ]
