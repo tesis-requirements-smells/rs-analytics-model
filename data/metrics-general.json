@@ -238,22 +238,22 @@
             {
                 "min": 0.0,
                 "max": 0.5,
-                "classification": "",
-                "description": "",
+                "classification": "Tiempo de aclaración de requisitos excelente",
+                "description": "Se presenta eficiencia en el proceso de aclaración de requisitos, donde se logra resolver dudas y confusiones de manera rápida y efectiva, minimizando el tiempo invertido en este aspecto",
                 "severity": "OK"
             },
             {
                 "min": 0.5,
                 "max": 1.0,
-                "classification": "",
-                "description": "",
+                "classification": "Tiempo de aclaración de requisitos aceptable",
+                "description": "Se presenta un tiempo considerable para la aclaración de requisitos, permitiendo resolver dudas de manera adecuada sin incurrir en excesos de tiempo o recursos",
                 "severity": "MEDIA"
             },
             {
                 "min": 1.0,
                 "max": 9999999.0,
-                "classification": "",
-                "description": "",
+                "classification": "Tiempo de aclaración de requisitos deficiente",
+                "description": "Se presenta un tiempo excesivo para abordar y resolver dudas de los requisitos, recurriendo a excesos de tiempo y recursos",
                 "severity": "ALTA"
             }
         ]
